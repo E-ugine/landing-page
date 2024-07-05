@@ -1,0 +1,10 @@
+h1{
+    color: aqua;
+}
+body{
+background-image: url(./images/pexels-david-besh-884788.jpg);
+background-size: cover;
+height: 100vh;
+background-position: center;
+
+}
