@@ -1,10 +1,58 @@
-h1{
-    color: aqua;
+form{
+    border: 2px solid black;
 }
-body{
-background-image: url(./images/pexels-david-besh-884788.jpg);
-background-size: cover;
-height: 100vh;
-background-position: center;
 
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid#ccc;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+.cancelbtn{
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/*avatar image*/
+.imgcontainer{
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+img.avatar{
+    width: 25%;
+    border-radius: 50%;
+}
+.container{
+    padding: 16px;
+}
+span.psw{
+    float: right;
+    padding-top: 16px;
+}
+
+@media screen and (max-width:300px) {
+    span.psw{
+        display: block;
+        float: none;
+    }
+    .cancelbtn{
+        width: 100%;
+    }
 }
